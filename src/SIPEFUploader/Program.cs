@@ -37,7 +37,7 @@ namespace SIPEFUploader
                     {
                         Console.Clear();
                         Extentions.WriteError("Arquivo inexistente no caminho especificado ou Url do servidor não foi fornecida");
-                        Main(null);
+                        UploadFile(InstruirOperador());
                     }
                     else
                     {
